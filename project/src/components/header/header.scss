@@ -1,0 +1,39 @@
+.header {
+  background-color: #1eb7ee;
+  height: 92px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+
+  &__logo {
+    background-image: url('../logoandpictures/logo.webp');
+    width: 180px;
+    height: 64px;
+    margin-left: 120px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-height: 100%;
+    margin-left: auto;
+  }
+
+  &__list-element {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__list-text {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 35px;
+    color: #fff;
+  }
+}
